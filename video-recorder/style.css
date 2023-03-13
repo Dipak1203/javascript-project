@@ -1,0 +1,17 @@
+#videoElement {
+    width: 640px;
+    height: 480px;
+    margin-bottom: 20px;
+  }
+  
+  #recordButton {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  

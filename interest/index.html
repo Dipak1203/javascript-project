@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="number" placeholder="principle" id="principle"><br>
+        <input type="number" placeholder="rate" id="rate"><br>
+        <input type="number" placeholder="year" id="year"><br>
+        <p id="result"></p>
+        <button onclick="calculate()">Calculate</button>
+    </div>
+
+
+    <script>
+        function calculate() {
+            var principle = document.getElementById("principle").value;
+            var rate = document.getElementById("rate").value;
+            var year = document.getElementById("year").value;
+            var result = (principle * rate * year) / 100;
+            document.getElementById("result").innerHTML = result;
+            
+        }
+    </script>
+</body>
+</html>
